@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F88229F17CC46CD00114F25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F88229E17CC46CD00114F25 /* UIKit.framework */; };
+		9F8822A117CC46CD00114F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8822A017CC46CD00114F25 /* Foundation.framework */; };
+		9F8822A317CC46CD00114F25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8822A217CC46CD00114F25 /* CoreGraphics.framework */; };
+		9F8822A917CC46CD00114F25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F8822A717CC46CD00114F25 /* InfoPlist.strings */; };
+		9F8822AB17CC46CD00114F25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8822AA17CC46CD00114F25 /* main.m */; };
+		9F8822AF17CC46CD00114F25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8822AE17CC46CD00114F25 /* AppDelegate.m */; };
+		9F8822B117CC46CD00114F25 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8822B017CC46CD00114F25 /* Default.png */; };
+		9F8822B317CC46CD00114F25 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8822B217CC46CD00114F25 /* Default@2x.png */; };
+		9F8822B517CC46CD00114F25 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8822B417CC46CD00114F25 /* Default-568h@2x.png */; };
+		9F8822B817CC46CD00114F25 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8822B617CC46CD00114F25 /* MainStoryboard.storyboard */; };
+		9F8822BB17CC46CD00114F25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8822BA17CC46CD00114F25 /* ViewController.m */; };
+		9F8822C317CC46CD00114F25 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8822C217CC46CD00114F25 /* SenTestingKit.framework */; };
+		9F8822C417CC46CD00114F25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F88229E17CC46CD00114F25 /* UIKit.framework */; };
+		9F8822C517CC46CD00114F25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8822A017CC46CD00114F25 /* Foundation.framework */; };
+		9F8822CD17CC46CE00114F25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F8822CB17CC46CE00114F25 /* InfoPlist.strings */; };
+		9F8822D017CC46CE00114F25 /* Stumbl_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8822CF17CC46CE00114F25 /* Stumbl_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F8822C617CC46CD00114F25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F88229317CC46CD00114F25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F88229A17CC46CD00114F25;
+			remoteInfo = Stumbl.;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F88229B17CC46CD00114F25 /* Stumbl..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stumbl..app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F88229E17CC46CD00114F25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F8822A017CC46CD00114F25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F8822A217CC46CD00114F25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F8822A617CC46CD00114F25 /* Stumbl.-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stumbl.-Info.plist"; sourceTree = "<group>"; };
+		9F8822A817CC46CD00114F25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F8822AA17CC46CD00114F25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8822AC17CC46CD00114F25 /* Stumbl.-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stumbl.-Prefix.pch"; sourceTree = "<group>"; };
+		9F8822AD17CC46CD00114F25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F8822AE17CC46CD00114F25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F8822B017CC46CD00114F25 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9F8822B217CC46CD00114F25 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9F8822B417CC46CD00114F25 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9F8822B717CC46CD00114F25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9F8822B917CC46CD00114F25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F8822BA17CC46CD00114F25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F8822C117CC46CD00114F25 /* Stumbl.Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stumbl.Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8822C217CC46CD00114F25 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9F8822CA17CC46CD00114F25 /* Stumbl.Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stumbl.Tests-Info.plist"; sourceTree = "<group>"; };
+		9F8822CC17CC46CE00114F25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F8822CE17CC46CE00114F25 /* Stumbl_Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stumbl_Tests.h; sourceTree = "<group>"; };
+		9F8822CF17CC46CE00114F25 /* Stumbl_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stumbl_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F88229817CC46CD00114F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F88229F17CC46CD00114F25 /* UIKit.framework in Frameworks */,
+				9F8822A117CC46CD00114F25 /* Foundation.framework in Frameworks */,
+				9F8822A317CC46CD00114F25 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8822BD17CC46CD00114F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8822C317CC46CD00114F25 /* SenTestingKit.framework in Frameworks */,
+				9F8822C417CC46CD00114F25 /* UIKit.framework in Frameworks */,
+				9F8822C517CC46CD00114F25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F88229217CC46CD00114F25 = {
+			isa = PBXGroup;
+			children = (
+				9F8822A417CC46CD00114F25 /* Stumbl. */,
+				9F8822C817CC46CD00114F25 /* Stumbl.Tests */,
+				9F88229D17CC46CD00114F25 /* Frameworks */,
+				9F88229C17CC46CD00114F25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F88229C17CC46CD00114F25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F88229B17CC46CD00114F25 /* Stumbl..app */,
+				9F8822C117CC46CD00114F25 /* Stumbl.Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F88229D17CC46CD00114F25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F88229E17CC46CD00114F25 /* UIKit.framework */,
+				9F8822A017CC46CD00114F25 /* Foundation.framework */,
+				9F8822A217CC46CD00114F25 /* CoreGraphics.framework */,
+				9F8822C217CC46CD00114F25 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F8822A417CC46CD00114F25 /* Stumbl. */ = {
+			isa = PBXGroup;
+			children = (
+				9F8822AD17CC46CD00114F25 /* AppDelegate.h */,
+				9F8822AE17CC46CD00114F25 /* AppDelegate.m */,
+				9F8822B617CC46CD00114F25 /* MainStoryboard.storyboard */,
+				9F8822B917CC46CD00114F25 /* ViewController.h */,
+				9F8822BA17CC46CD00114F25 /* ViewController.m */,
+				9F8822A517CC46CD00114F25 /* Supporting Files */,
+			);
+			path = Stumbl.;
+			sourceTree = "<group>";
+		};
+		9F8822A517CC46CD00114F25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8822A617CC46CD00114F25 /* Stumbl.-Info.plist */,
+				9F8822A717CC46CD00114F25 /* InfoPlist.strings */,
+				9F8822AA17CC46CD00114F25 /* main.m */,
+				9F8822AC17CC46CD00114F25 /* Stumbl.-Prefix.pch */,
+				9F8822B017CC46CD00114F25 /* Default.png */,
+				9F8822B217CC46CD00114F25 /* Default@2x.png */,
+				9F8822B417CC46CD00114F25 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F8822C817CC46CD00114F25 /* Stumbl.Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8822CE17CC46CE00114F25 /* Stumbl_Tests.h */,
+				9F8822CF17CC46CE00114F25 /* Stumbl_Tests.m */,
+				9F8822C917CC46CD00114F25 /* Supporting Files */,
+			);
+			path = Stumbl.Tests;
+			sourceTree = "<group>";
+		};
+		9F8822C917CC46CD00114F25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8822CA17CC46CD00114F25 /* Stumbl.Tests-Info.plist */,
+				9F8822CB17CC46CE00114F25 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F88229A17CC46CD00114F25 /* Stumbl. */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8822D317CC46CE00114F25 /* Build configuration list for PBXNativeTarget "Stumbl." */;
+			buildPhases = (
+				9F88229717CC46CD00114F25 /* Sources */,
+				9F88229817CC46CD00114F25 /* Frameworks */,
+				9F88229917CC46CD00114F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stumbl.;
+			productName = Stumbl.;
+			productReference = 9F88229B17CC46CD00114F25 /* Stumbl..app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F8822C017CC46CD00114F25 /* Stumbl.Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8822D617CC46CE00114F25 /* Build configuration list for PBXNativeTarget "Stumbl.Tests" */;
+			buildPhases = (
+				9F8822BC17CC46CD00114F25 /* Sources */,
+				9F8822BD17CC46CD00114F25 /* Frameworks */,
+				9F8822BE17CC46CD00114F25 /* Resources */,
+				9F8822BF17CC46CD00114F25 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8822C717CC46CD00114F25 /* PBXTargetDependency */,
+			);
+			name = Stumbl.Tests;
+			productName = Stumbl.Tests;
+			productReference = 9F8822C117CC46CD00114F25 /* Stumbl.Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F88229317CC46CD00114F25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Edie Cheng";
+			};
+			buildConfigurationList = 9F88229617CC46CD00114F25 /* Build configuration list for PBXProject "Stumbl." */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F88229217CC46CD00114F25;
+			productRefGroup = 9F88229C17CC46CD00114F25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F88229A17CC46CD00114F25 /* Stumbl. */,
+				9F8822C017CC46CD00114F25 /* Stumbl.Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F88229917CC46CD00114F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8822A917CC46CD00114F25 /* InfoPlist.strings in Resources */,
+				9F8822B117CC46CD00114F25 /* Default.png in Resources */,
+				9F8822B317CC46CD00114F25 /* Default@2x.png in Resources */,
+				9F8822B517CC46CD00114F25 /* Default-568h@2x.png in Resources */,
+				9F8822B817CC46CD00114F25 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8822BE17CC46CD00114F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8822CD17CC46CE00114F25 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F8822BF17CC46CD00114F25 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F88229717CC46CD00114F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8822AB17CC46CD00114F25 /* main.m in Sources */,
+				9F8822AF17CC46CD00114F25 /* AppDelegate.m in Sources */,
+				9F8822BB17CC46CD00114F25 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8822BC17CC46CD00114F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8822D017CC46CE00114F25 /* Stumbl_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F8822C717CC46CD00114F25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F88229A17CC46CD00114F25 /* Stumbl. */;
+			targetProxy = 9F8822C617CC46CD00114F25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F8822A717CC46CD00114F25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8822A817CC46CD00114F25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F8822B617CC46CD00114F25 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8822B717CC46CD00114F25 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		9F8822CB17CC46CE00114F25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8822CC17CC46CE00114F25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F8822D117CC46CE00114F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F8822D217CC46CE00114F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8822D417CC46CE00114F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stumbl./Stumbl.-Prefix.pch";
+				INFOPLIST_FILE = "Stumbl./Stumbl.-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F8822D517CC46CE00114F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stumbl./Stumbl.-Prefix.pch";
+				INFOPLIST_FILE = "Stumbl./Stumbl.-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9F8822D717CC46CE00114F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stumbl..app/Stumbl.";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stumbl./Stumbl.-Prefix.pch";
+				INFOPLIST_FILE = "Stumbl.Tests/Stumbl.Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9F8822D817CC46CE00114F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stumbl..app/Stumbl.";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stumbl./Stumbl.-Prefix.pch";
+				INFOPLIST_FILE = "Stumbl.Tests/Stumbl.Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F88229617CC46CD00114F25 /* Build configuration list for PBXProject "Stumbl." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8822D117CC46CE00114F25 /* Debug */,
+				9F8822D217CC46CE00114F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8822D317CC46CE00114F25 /* Build configuration list for PBXNativeTarget "Stumbl." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8822D417CC46CE00114F25 /* Debug */,
+				9F8822D517CC46CE00114F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F8822D617CC46CE00114F25 /* Build configuration list for PBXNativeTarget "Stumbl.Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8822D717CC46CE00114F25 /* Debug */,
+				9F8822D817CC46CE00114F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F88229317CC46CD00114F25 /* Project object */;
+}
